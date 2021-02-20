@@ -14,4 +14,4 @@ Given an x between 0 and d2, we solve the equation x(t) = x to find the paramete
 I made this program for a friend of mine who is a composer. He needed Bezier graphs to generate interesting sound waves for a synthezizer program.
 
 I made a simple online illustration of the program:
-https://kimarokko.000webhostapp.com/kimarokko.com/bezier/bezier.html
+https://kristianmschmidt.github.io/Qubic-Bezier-Graph/
