@@ -22,7 +22,6 @@ window.draw_graph = function draw_graph(){
     let N = 100;
  
     let my_data = generatePoints(0,0, b1, b2, c1, c2, d1, 0, N);
-    console.log(my_data);
     generate_graph(my_data);
 }
 

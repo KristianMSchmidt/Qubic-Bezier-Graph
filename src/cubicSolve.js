@@ -48,7 +48,7 @@ function cubicSolve(a, b, c, d){
 }
 
 function quadraticSolve(a,b,c){
-    console.log("quadratic!");
+    //console.log("quadratic!");
     disk = b**2 - 4*a*c;
 
     if (disk < 0){
@@ -66,26 +66,25 @@ function quadraticSolve(a,b,c){
     }
 }   
 
-
 export function wanted_root(a, b, c, d){
     //finder den relle rod, som ligger mellem 0 og 1.
     if (a === 0){
         if (b === 0){
             if (c===0){
-                console.log ("a and b and c all zero!");
+                //console.log ("a and b and c all zero!");
                 return 0;  // this shouldn't happen
             }
             else {
-                console.log("linear!");
+                //console.log("linear!");
                 return -d/c
             }
         }
         else {
-            let roots = quadraticSolve(b,c,d);
+            var roots = quadraticSolve(b,c,d);
         }
     }
     else {
-        let roots = cubicSolve(a, b, c, d);
+        var roots = cubicSolve(a, b, c, d);
     }       
     let num_roots = roots.length;
     for (let n = 0; n < num_roots +1; n++) {
